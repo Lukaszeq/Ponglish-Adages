@@ -35,18 +35,13 @@
           <blockquote id="adage-ponglish">
             <p><span style="color:#a0a0a0;">"English": </span> 
               <script>
-    
-    
-    fetch('https://jsonplaceholder.typicode.com/todos/1')
+    const requestedData = new Request('https://raw.githubusercontent.com/Lukaszeq/Ponglish-Adages/main/data/db.json?token=GHSAT0AAAAAACF3AQZZP52K3JXWMGOTHFGQZGNHM2Q')
+    fetch('requestedData')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.log(error));
-//const database = JSON.parse(jsonFile);
 
 
-//console.log(Array.isArray(database)); 
-
-//console.log(database);
 
 
 
