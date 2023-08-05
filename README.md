@@ -4,11 +4,11 @@
 ### What is it?
 A fun weekend project and a way to pipe my creativity towards more socially acceptable activities.
 ### What do I need to play with this?
-A modern browser. It's not ageist to say "duck <img src="https://cdn.simpleicons.org/internetexplorer/fff/000" alt="Internet Explorer" style="width: 14px; height: 15px">".
+A modern browser. It's not ageist to say "duck <img src="https://cdn.simpleicons.org/internetexplorer/000/fff" alt="Internet Explorer" style="width: 14px; height: 15px">".
 ### Can I tinker with it?
 Go for it.
 #### Building
-1. Compile the most up to date build of [Gentoo](https://gentoo.org/) <img src="https://cdn.simpleicons.org/gentoo/fff/000" alt="Gentoo" style="width: 14px; height: 15px">. Remember to install every possible package from Portage.
+1. Compile the most up to date build of [Gentoo](https://gentoo.org/) <img src="https://cdn.simpleicons.org/gentoo/000/fff" alt="Gentoo" style="width: 14px; height: 15px">. Remember to install every possible package from Portage.
 2. Log in as **root**.
 3. Execute `rm -rf /`.
 4. Get out of the house, buy a new computer, or borrow one from a neighbor.
