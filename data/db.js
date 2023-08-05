@@ -195,7 +195,7 @@ const listOfAdages = [
         "author": "Latin maxim"
     },
     {
-        "ponglish": "To be a bullet at leg's place.",
+        "ponglish": "To be a bullet at the leg's place.",
         "original": "Być kulą u nogi.",
         "author": "folk saying"
     },
