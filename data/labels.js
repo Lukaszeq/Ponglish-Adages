@@ -1,4 +1,4 @@
-let listOfQuips = [
+const listOfQuips = [
   "Incredible.",
   "Life-changing.",
   "So beautiful.",
@@ -55,7 +55,7 @@ let listOfQuips = [
   "Evokes emotion."
 ];
 
-let listOfGeneratePrompts = [
+const listOfGeneratePrompts = [
   "Provide a brand new quote.",
   "Could I see another quote?",
   "Gift me more wisdom.",

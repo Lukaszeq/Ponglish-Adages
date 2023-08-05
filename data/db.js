@@ -1,4 +1,4 @@
-let adages = [
+const listOfAdages = [
     {
         "ponglish": "What is sudden is after devil.",
         "original": "Co nagle, to po diable.",
