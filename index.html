@@ -1,136 +1,81 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Open Graph begin -->
-  <meta property="og:title" content="The Rock">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.imdb.com/title/tt0117500/">
-  <meta property="og:image" content="img/og_main.webp">
-  <meta property="og:image:type" content="image/webp">
-  <meta property="og:image:alt" content="A shiny red apple with a bite taken out">
-  <!-- Open Graph end -->
-  <!-- Twitter card begin -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="">
-  <meta name="twitter:title" content="Ponglish Adages">
-  <meta name="twitter:description" content="">
-  <meta name="twitter:image" content="url">
-  <!-- Twitter card end -->
-  <title>Ponglish Adages</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css" integrity="sha512-F5lKjC1GKbwLFXdThwMWx8yF8TX/WVrdhWYN9PWb6eb5hIRLmO463nrpqLnEUHxy2EHIzfC4dq/mncHD6ndR+g==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <link rel="stylesheet" href="./css/main.css">
-  <script src="./data/db.js"></script>
-  <script src="./data/labels.js"></script>
-</head>
-
-<body>
-
-
-  <!-- random adage script begin -->
-  <script>
-    const adageCount = adages.length; // total number of db entries
-    const quipCount = listOfQuips.length; // total number of quip entries
-    const generatePromptCount = listOfGeneratePrompts.length; // total number of generate prompt entries
-    /*
-    function drawRandomNumber(adageCount) {
-        return Math.floor(Math.random() * (adageCount - 1));
-        return [randomAdageNumber, randomQuipNumber, randomPromptNumber]
-    }*/
-    //function drawRandomNumbers(adageCount, quipCount, generatePromptCount){
-      var randomAdageNumber = Math.floor(Math.random() * (adageCount - 1));
-      var randomQuipNumber = Math.floor(Math.random() * (quipCount - 1));
-      var randomPromptNumber = Math.floor(Math.random() * (generatePromptCount - 1));
-      //return [randomAdageNumber, randomQuipNumber, randomPromptNumber]
-   // }
-    //let results = drawRandomNumbers(randomAdageNumber, randomQuipNumber, randomPromptNumber);
-    /*let r1 = results[0];
-    let r2 = results[1];
-    let r3 = results[2];*/
-console.log("adage"+randomAdageNumber+" quip"+randomQuipNumber+" prmpt"+randomPromptNumber);
-    //var pickedNumber = drawRandomNumber(adageCount);
-
-    var adageInPonglish = adages[randomAdageNumber]["ponglish"];
-    var adageInOriginal = adages[randomAdageNumber]["original"];
-    var adageAuthor = adages[randomAdageNumber]["author"];
-    var quip = listOfQuips[randomQuipNumber];
-    var generatePrompt = listOfGeneratePrompts[randomPromptNumber];
-    console.log(adageInPonglish);
-    console.log(adageInOriginal);
-    console.log(adageAuthor);
-    console.log(quip+" nr"+randomQuipNumber);
-    console.log(generatePrompt+" nr"+randomPromptNumber);
-
-
-
-
- 
-    
-    window.onload = function(){
-      document.getElementById('adage-ponglish').innerHTML = adageInPonglish;
-      document.getElementById('adage-original').innerHTML = adageInOriginal;
-      document.getElementById('adage-author').innerHTML = adageAuthor;
-      document.getElementById('user-quip').innerHTML = quip;
-      document.getElementById('user-generate-prompt').innerHTML = generatePrompt;
-    };
-    
-        </script>
-    <!-- random adage script end -->
-  <article>
-    <h1 id="head-title">Ponglish Adages</h1>
-    <p class="subtitle">Polish maxims in broken English</p>
-    <section>
-      <div class="epigraph">
-        <blockquote>
-          <p><span class="language-label">"English": </span><br/><span id="adage-ponglish"></span></p>
-        </blockquote>
-        <blockquote>
-          <p><span class="language-label">Polish: </span><br/><span id="adage-original"></span></p>
-          <footer id="adage-author"></footer>
-        </blockquote>
-      </div>
-      <p class="post-quote-message">
-        <span id="user-quip"></span>&#32;<a href="#"><span id="user-generate-prompt"></span></a>
-      </p>
-    </section>
- 
-    <section>
-      <h2 id="about-this-website">About this website</h3>
-        <blockquote>
-          <p>Eight hundred years of development.</p>
-          <p>Data gathered from 60 million libraries from three different planets.</p>
-          <p>Two time travels (to Geoffrey Chaucer and to prince Popiel).
-          <p>Countless glasses of Apology of Socrates.<label for="cocktail-recipe"
-              class="margin-toggle sidenote-number"></label></span><input type="checkbox" id="cocktail-recipe"
-              class="margin-toggle" /><span class="sidenote" style="/*fix*/ margin-right: -70%;">3 cl ouzo, 1 cl club
-              soda, 1 dash poison hemlock syrup. Shake all ingredients in a cocktail shaker filled with ice. Strain into
-              a cocktail glass and throw out immediately. Otherwise, YOU DIE.</span></p>
-        </blockquote>
-
-        <p><span class="newthought">Life doesn't make any sense</span>, and we all pretend it does, said Eric Idle. For
-          not alternate use of header elements and the <code>newthought</code> technique. Pick one approach and stick to
-          it.</p>
-
-    </section>
-  </article>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ponglish Adages" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="Polish maxims in broken English, right here to reinforce your faith in humanity even more." />
+    <meta property="og:url" content="https://lukaszeq.github.io/ponglish-adages"/>
+    <meta property="og:image" content="img/og_main.webp"/>
+    <meta property="og:image:type" content="image/webp"/>
+    <meta property="og:image:alt" content="Jan Kochanowski with peculiar eyes, being a spokesperson for the Ponglish Adages website."/>
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://lukaszeq.github.io/ponglish-adages">
+    <meta name="twitter:title" content="Ponglish Adages">
+    <meta name="twitter:description" content="Polish maxims in broken English, right here to reinforce your faith in humanity even more.">
+    <meta name="twitter:image" content="url">
+    <title>Ponglish Adages</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css" integrity="sha512-F5lKjC1GKbwLFXdThwMWx8yF8TX/WVrdhWYN9PWb6eb5hIRLmO463nrpqLnEUHxy2EHIzfC4dq/mncHD6ndR+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./data/db.js"></script>
+    <script src="./data/labels.js"></script>
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+    <article>
+      <h1 id="head-title">Ponglish Adages</h1>
+      <p class="subtitle">Polish maxims in broken English</p>
+      <section>
+        <div class="epigraph">
+          <blockquote>
+            <p class="fade-in-quick" id="reload-animation">
+              <span class="language-label">"English":</span>
+              <br />
+              <span id="adage-ponglish" class=""></span>
+            </p>
+          </blockquote>
+          <blockquote>
+            <p class="fade-in-quick" id="reload-animation">
+              <span class="language-label">Polish:</span>
+              <br />
+              <span id="adage-original"></span>
+            </p>
+            <footer id="adage-author" class="fade-in-quick"></footer>
+          </blockquote>
+        </div>
+        <p class="post-quote-message fade-in-long" id="reload-animation">
+          <span id="user-quip"></span>&#32;<span id="user-generate-prompt"></span>
+        </p>
+      </section>
+      <section>
+        <h2 id="about-this-website">About this website </h3>
+          <blockquote>
+            <p>Eight hundred years of development.</p>
+            <p>Data gathered from 60 million libraries from three different planets.</p>
+            <p>Two time travels (to Geoffrey Chaucer and to prince Popiel).
+            <p>Countless glasses of Apology of Socrates. <label for="cocktail-recipe" class="margin-toggle sidenote-number"></label>
+              </span>
+              <input type="checkbox" id="cocktail-recipe" class="margin-toggle" />
+              <span class="sidenote" style="/*fix*/ margin-right: -70%;">3 cl ouzo, 1 cl club soda, 1 dash poison hemlock syrup. Shake all ingredients in a cocktail shaker filled with ice. Strain into a cocktail glass. Drink in a bathtub, as it will be more convenient for the coroner and the cleaning service.</span>
+            </p>
+          </blockquote>
+          <p>
+            <span class="newthought">Life doesn't make any sense</span>, and we all pretend it does, said Eric Idle. For not alternate use of header elements and the <code>newthought</code> technique. Pick one approach and stick to it.
+          </p>
+      </section>
+    </article>
     <!-- GitHub Corner begin -->
-    <a href="https://your-url" class="github-corner" aria-label="View source on GitHub">
-      <svg width="80" height="80"
-        viewBox="0 0 250 250" style="fill:#111; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
-        aria-hidden="true">
+    <a href="https://github.com/Lukaszeq/Ponglish-Adages" class="github-corner" aria-label="View source on GitHub">
+      <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#111; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
         <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
         <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
       </svg>
     </a>
-    <style>
-  
-    </style>
     <!-- GitHub Corner end -->
-</body>
-
+  </body>
 </html>
