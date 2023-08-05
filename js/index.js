@@ -19,6 +19,7 @@ var generatePrompt = listOfGeneratePrompts[drawnNumbers[2]];
 
 window.onload = function () {
     // initial stuff
+    document.getElementById("copyright-years").innerHTML = new Date().getFullYear();
     document.getElementById('adage-ponglish').innerHTML = adageInPonglish;
     document.getElementById('adage-original').innerHTML = adageInOriginal;
     document.getElementById('adage-author').innerHTML = adageAuthor;
