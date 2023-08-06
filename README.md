@@ -18,6 +18,7 @@ Go for it.
 Only the awesomest! Shoutouts to:
 * [tufte-css](https://github.com/edwardtufte/tufte-css)
 * [github-corners](https://github.com/tholman/github-corners)
+* [Foolish Developer](https://foolishdeveloper.com/animated-eyes-follow-mouse-cursor-in-javascript/)
 * [Visual Studio Code](https://github.com/microsoft/vscode)
 * [OpenAI DALL-E](https://openai.com/dall-e-2)
 ## Afterword
