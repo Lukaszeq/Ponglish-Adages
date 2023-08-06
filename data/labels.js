@@ -69,7 +69,7 @@ const listOfGeneratePrompts = [
   "More words of inspiration, if I may.",
   "Rekindle my thoughts with another.",
   "Extend your lyric once more.",
-  "Offer another glimpse of eternity.",
+  "Offer another one, o wise automaton.",
   "Share another stroke of brilliance.",
   "Keep the quotes coming.",
   "One more proverb, please.",

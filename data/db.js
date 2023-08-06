@@ -293,5 +293,100 @@ const listOfAdages = [
         "ponglish": "The language is flying like a shovel, hands are standing, the robots are scared.",
         "original": "Język lata jak łopata, ręce stoją, roboty się boją.",
         "author": "folk saying"
-    }
+    },
+    {
+        "ponglish": "Un-pepper yourself from the general!",
+        "original": "Odpieprzcie się od generała!",
+        "author": "Adam Michnik on general Wojciech Jaruzelski"
+    },
+    {
+        "ponglish": "I careful Mr. Goss as a notorious liar, a paid traffic cone of \"Shoah, Inc.\"",
+        "original": "Ja p. Grossa uważam za notorycznego kłamcę, płatnego pachołka \„Przedsiębiorstwa Holokaust\”",
+        "author": "Janusz Korwin-Mikke"
+    },
+    {
+        "ponglish": "It seems on this poets will always have a lot of robots.",
+        "original": "Wygląda na to, że poeci będą mieli zawsze dużo roboty.",
+        "author": "Wisława Szymborska"
+    },
+    {
+        "ponglish": "It supposed to be better from previous, our age double \'x\'. Will not deliver it on time.",
+        "original": "Miał być lepszy od zeszłych nasz wiek XX. / Już tego dowieść nie zdąży.",
+        "author": "Wisława Szymborska"
+    },
+    {
+        "ponglish": "To vanish does not lance us. To disappear girths us.",
+        "original": "Przepaść nas nie przecina. \ Przepaść nas otacza.",
+        "author": "Wisława Szymborska"
+    },
+    {
+        "ponglish": "Love forges the world's painting.",
+        "original": "Miłość fałszuje obraz świata.",
+        "author": "Maria Dąbrowska"
+    },
+    {
+        "ponglish": "A magazine and art are the sole best men of our times.",
+        "original": "Pismo i sztuka to jedyni świadkowie naszych czasów.",
+        "author": "Maria Dąbrowska"
+    },
+    {
+        "ponglish": "Patience, a despair under the hood of the virtue.",
+        "original": "Cierpliwość – rozpacz pod maską cnoty.",
+        "author": "Julian Tuwim"
+    },
+    {
+        "ponglish": "A horse has four legs. After one on every horn.",
+        "original": "Koń ma cztery nogi. Po jednej na każdym rogu.",
+        "author": "Julian Tuwim"
+    },
+    {
+        "ponglish": "Immunity for demagoguery potentiates together with stability and a life foot.",
+        "original": "Odporność na demagogię wzmaga się wraz ze stabilnością i stopą życiową.",
+        "author": "Antoni Słonimski"
+    },
+    {
+        "ponglish": "Always in situations like these wine are Jews, cyclists, but most often the literature.",
+        "original": "Zawsze w takich sytuacjach winni są Żydzi, cykliści, ale najczęściej literatura.",
+        "author": "Antoni Słonimski"
+    },
+    {
+        "ponglish": "Polish dudes are the polecats over polecats.",
+        "original": "Chłopy polskie – to tchórze nad tchórzami.",
+        "author": "Stefan Żeromski"
+    },
+    {
+        "ponglish": "I will circumvent the world, or maybe I will murder the heart that punches me.",
+        "original": "Obejdę świat dookoła, a może zabiję bijące mnie serce.",
+        "author": "Stefan Żeromski"
+    },
+    {
+        "ponglish": "Democracy is not a room's warranty.",
+        "original": "Demokracja nie jest gwarancją pokoju.",
+        "author": "Stanisław Stomma"
+    },
+    {
+        "ponglish": "Christopher, throw that lousy disappointment in this place where you are",
+        "original": "Krzysztof, rzuć ten podły zawód, w tym miejscu, w którym jesteś.",
+        "author": "Jurek Owsiak on Krzysztof Ziemiec"
+    },
+    {
+        "ponglish": "One vice-PM gives in the tar paper for journalists, second will pour gays's knuckleheads.",
+        "original": "Jeden wicepremier daje w papę dziennikarzom, drugi będzie lał pałami gejów.",
+        "author": "Donald Tusk"
+    },
+    {
+        "ponglish": "Today they demand relationships, they will create a force, and then they presume a storm on a round, on a row, on the Sejm.",
+        "original": "Dziś żądają związków, utworzą siłę, a potem przypuszczą szturm na partię, na rząd, na Sejm.",
+        "author": "Edward Gierek"
+    },
+    {
+        "ponglish": "Arms-apotheosize Chamberlain wants to bake-up for me.",
+        "original": "Bronisław Komorowski chce mi dopiec.",
+        "author": "Antoni Macierewicz"
+    },
+    {
+        "ponglish": "We can fight for slowness, but it is hard for us to make its copies.",
+        "original": "Potrafimy walczyć o wolność, ale trudno się nam jej dorabiać.",
+        "author": "Father Józef Tischner"
+    },
 ];
