@@ -28,8 +28,6 @@
     background: #000; /* pupil color */
     position: absolute;
     box-sizing: border-box;
-    border-color: #61594e; /* iris color */
-    border-style: solid;
 }
 
 /* disable Kochanowski on mobile */
@@ -63,7 +61,8 @@
     .eyes-container .eyeball::before {
         width: 10px;
         height: 10px;
-        border: 2px;
+        border: 2px solid #61594e;
+
     }
 }
 
@@ -89,6 +88,6 @@
     .eyes-container .eyeball::before {
         width: 15px;
         height: 15px;
-        border: 3px;
+        border: 3px solid #61594e;
     }
 }
