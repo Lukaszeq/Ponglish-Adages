@@ -1,0 +1,93 @@
+.portrait-container {
+    background-image: url("../img/kochanowski_portrait.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    float: right;
+}
+
+.eyes-container {
+    display: flex;
+    position: absolute;
+}
+
+.eyes-container .eyeball {
+    position: relative;
+    border-radius: 50%;
+    display: block;
+    background-color: #f7f7f7; /* eye white color */
+}
+
+.eyes-container .eyeball::before {
+    content: "";
+    /* fix for visible irises */
+    top: 50%;
+    left: 6px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #000; /* pupil color */
+    position: absolute;
+    box-sizing: border-box;
+}
+
+/* disable Kochanowski on mobile */
+@media screen and (max-width: 768px) {
+    .portrait-container {
+        visibility: hidden;
+        clear: both;
+        display: none;
+    }
+}
+
+/* Kochanowski on tablets and Chromebooks */
+@media screen and (max-width: 1149px) and (min-width: 769px) {
+    .portrait-container {
+        min-width: 185px;
+        min-height: 280px;
+        margin-right: 17%;
+    }
+
+    .eyes-container {
+        margin-left: 60px;
+        margin-top: 92px;
+    }
+
+    .eyes-container .eyeball {
+        margin: 0 16px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .eyes-container .eyeball::before {
+        width: 10px;
+        height: 10px;
+        border: 2px solid #61594e;
+
+    }
+}
+
+/* widescreen Kochanowski */
+@media screen and (min-width: 1150px) {
+    .portrait-container {
+        width: 285px;
+        height: 380px;
+        margin-right: 14%;
+    }
+
+    .eyes-container {
+        margin-left: 94px;
+        margin-top: 140px;
+    }
+
+    .eyes-container .eyeball {
+        margin: 0 24px;
+        width: 28px;
+        height: 28px;
+    }
+
+    .eyes-container .eyeball::before {
+        width: 15px;
+        height: 15px;
+        border: 3px solid #61594e;
+    }
+}
