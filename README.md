@@ -8,7 +8,7 @@ A modern browser. It's not ageist to say "duck <img src="https://cdn.simpleicons
 ### Can I tinker with it?
 Go for it.
 #### Building
-1. Compile the most up to date build of [Gentoo](https://gentoo.org/) <img src="https://cdn.simpleicons.org/gentoo/000/fff" alt="Gentoo" style="width: 14px; height: 15px">. Remember to install every possible package from Portage.
+1. Compile the most up to date build of [Gentoo](https://gentoo.org/) <img src="https://cdn.simpleicons.org/gentoo/000/fff" alt="Gentoo" width="14px" height="14px">. Remember to install every possible package from Portage.
 2. Log in as **root**.
 3. Execute `rm -rf /`.
 4. Get out of the house, buy a new computer, or borrow one from a neighbor.
