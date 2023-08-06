@@ -4,7 +4,7 @@
 ### What is it?
 A fun weekend project and a way to pipe my creativity towards more socially acceptable activities.
 ### What do I need to play with this?
-A modern browser. It's not ageist to say "duck <img src="https://cdn.simpleicons.org/internetexplorer/000/fff" alt="Internet Explorer" style="width: 14px; height: 15px">".
+A modern browser. It's not ageist to say "duck <img src="https://cdn.simpleicons.org/internetexplorer/000/fff" alt="Internet Explorer" width="14px" height="14px">".
 ### Can I tinker with it?
 Go for it.
 #### Building
