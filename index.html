@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
+  <head>   
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6YW1V4WZB7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6YW1V4WZB7');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,11 +19,13 @@
     <meta property="og:locale" content="en_GB" />
     <meta property="og:description" content="Polish maxims in broken English, right here to reinforce your faith in humanity even more." />
     <meta property="og:url" content="https://lukaszeq.github.io/Ponglish-Adages"/>
-    <meta property="og:image" content="https://raw.githubusercontent.com/Lukaszeq/Ponglish-Adages/2e4226b75ffb15088bc3abe2427d3088f7966bad/img/banner_og.jpg"/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/Lukaszeq/Ponglish-Adages/main/img/banner_og.jpg"/>
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:alt" content="Jan Kochanowski with peculiar eyes, being a spokesperson for the Ponglish Adages website."/>
     <!-- Twitter card -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:domain" content="lukaszeq.github.io" />
+    <meta name="twitter:url" content="https://lukaszeq.github.io/Ponglish-Adages" />
     <meta name="twitter:title" content="Ponglish Adages" />
     <meta name="twitter:description" content="Polish maxims in broken English, right here to reinforce your faith in humanity even more." />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/Lukaszeq/Ponglish-Adages/main/img/banner_tc.jpg" />
@@ -42,7 +52,6 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-
     </div>
     <article>
       <div class="portrait-container">
@@ -84,7 +93,7 @@
             <p>Countless glasses of Apology of Socrates. <label for="cocktail-recipe" class="margin-toggle sidenote-number"></label>
               </span>
               <input type="checkbox" id="cocktail-recipe" class="margin-toggle" />
-              <span class="sidenote" style="/*fix*/ margin-right: -70%;">3 cl ouzo, 1 cl club soda, 1 dash poison hemlock extract. Shake all ingredients in a shaker filled with ice. Strain into a cocktail glass. Drink in a bathtub as courtesy to the coroner and the cleaning service.</span>
+              <span class="sidenote" style="/*fix*/ margin-right: -70%;">3 cl ouzo, 1 cl club soda, 1 dash poison hemlock extract. Shake all ingredients in a shaker filled with ice. Strain into a cocktail glass. Drink in a bathtub as a courtesy to the coroner and the cleaning service.</span>
             </p>
           </blockquote>
           <p>
@@ -106,5 +115,7 @@
     <script src="./data/labels.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/googly-eyes.js"></script>
+    <script src="./js/cookieconsent.min.js"></script>
+    <script src="./js/cookieconsent-config.js"></script>
   </body>
 </html>

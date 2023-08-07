@@ -18,8 +18,10 @@ Go for it.
 Only the awesomest! Shoutouts to:
 * [tufte-css](https://github.com/edwardtufte/tufte-css)
 * [github-corners](https://github.com/tholman/github-corners)
+* [cookieconsent](https://github.com/brainsum/cookieconsent)
 * [Foolish Developer](https://foolishdeveloper.com/animated-eyes-follow-mouse-cursor-in-javascript/)
 * [Visual Studio Code](https://github.com/microsoft/vscode)
-* [OpenAI DALL-E](https://openai.com/dall-e-2)
+* OpenAI DALL-E
+* The devil's spawn: Google Analytics
 ## Afterword
 It is a comedy bit of software, and the only people who might be offended are long gone. Ha ha, you'll never get me! Goodbye.
