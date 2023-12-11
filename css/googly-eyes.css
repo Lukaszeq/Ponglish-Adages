@@ -61,7 +61,7 @@
     .eyes-container .eyeball::before {
         width: 10px;
         height: 10px;
-        border: 2px solid #61594e;
+        border: 2px solid #1aaedb;
 
     }
 }
@@ -88,6 +88,6 @@
     .eyes-container .eyeball::before {
         width: 15px;
         height: 15px;
-        border: 3px solid #61594e;
+        border: 3px solid #1aaedb;
     }
 }
