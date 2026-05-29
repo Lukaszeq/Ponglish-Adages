@@ -619,4 +619,54 @@ const listOfAdages = [
         "original": "Nie jestem rannym ptaszkiem, tylko nocnym markiem.",
         "author": "folk saying"
     },
+    {
+        "ponglish": "Near raining the apple from the Malus domestica.",
+        "original": "Niedaleko pada jabłko od jabłoni.",
+        "author": "folk saying"
+    },
+    {
+        "ponglish": "Rain on saint Bła-who?-me?, weak Spring's hope.",
+        "original": "Deszcz na świętego Błażeja, słaba wiosny nadzieja.",
+        "author": "folk saying"
+    },
+    {
+        "ponglish": "When Catherine chicken, all joy will demolish.",
+        "original": "Gdy Katarzyna kurzy, wszystka się radość zburzy.",
+        "author": "folk saying"
+    },
+    {
+        "ponglish": "Cow who bawls a lot, little milk gives.",
+        "original": "Krowa, która dużo ryczy, mało mleka daje.",
+        "author": "folk saying"
+    },
+    {
+        "ponglish": "When family united, there spirit weather is clear.",
+        "original": "Gdy rodzina zgodno, tam dusza pogodno.",
+        "author": "folk saying"
+    },
+    {
+        "ponglish": "Eat bread with every they're weighing, and do what it's them who punish.",
+        "original": "Jedz chleb z każdą warzą, a rób, co ci każą.",
+        "author": "folk saying"
+    },
+    {
+        "ponglish": "Is praying under a body shape, and has the devil behind the leather.",
+        "original": "Modli się pod figurą, a diabła ma za skórą.",
+        "author": "folk saying"
+    },
+    {
+        "ponglish": "The best alkali - look at the neighbor\'s charters.",
+        "original": "Najlepsza zasada – patrz w karty sąsiada.",
+        "author": "folk saying"
+    },
+    {
+        "ponglish": "Baked pigeons don't fly alone to the sponge.",
+        "original": "Pieczone gołąbki nie lecą same do gąbki.",
+        "author": "folk saying"
+    },
+    {
+        "ponglish": "Night light on Michael's, spicy winter and persevered, when night is foul weather, winter to the end of December is lightweight and muddy.",
+        "original": "Noc jasna na Michała, zima ostra i trwała, gdy noc słotna, zima do końca grudnia lekka i błotna.",
+        "author": "folk saying"
+    },
 ];
